@@ -19,3 +19,44 @@ input,
 button {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-50 dark:focus-visible:ring-neutral-600 dark:focus-visible:ring-offset-neutral-900;
 }
+
+/* Medusa UI Overrides */
+body {
+  @apply font-sans bg-white text-gray-900;
+}
+
+header {
+  @apply flex justify-between items-center px-6 py-4 border-b;
+}
+
+nav {
+  @apply flex space-x-4;
+}
+
+.product-grid {
+  @apply grid grid-cols-2 md:grid-cols-3 gap-6 p-6;
+}
+
+.product-card {
+  @apply flex flex-col rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:scale-105;
+}
+
+.product-card img {
+  @apply w-full h-auto;
+}
+
+.product-title {
+  @apply text-lg font-semibold mt-2;
+}
+
+.product-price {
+  @apply text-sm text-gray-600;
+}
+
+.product-page {
+  @apply grid md:grid-cols-2 gap-10 p-10;
+}
+
+button {
+  @apply px-6 py-3 bg-black text-white font-medium rounded-lg transition hover:bg-gray-800;
+}
