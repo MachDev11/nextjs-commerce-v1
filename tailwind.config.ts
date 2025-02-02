@@ -6,7 +6,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-geist-sans)']
+        sans: ['Inter', '-apple-system', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Ubuntu', 'sans-serif'],
       },
       keyframes: {
         fadeIn: {
